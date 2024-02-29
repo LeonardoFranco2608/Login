@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(51, 51, 51);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(82, 99, 250);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.login{
+display: grid;
+margin-left: 23%;
+margin-top: 45px;
+}
+
+input[type="text"]{
+    display: flex;
+    justify-items: center;
+    width: 150px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.senha{
+    display: grid;
+    margin-left: 23%;   
+    margin-top: 50px;
+}
+
+.confirmBotton{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 60px;
+}
+
+.confirmBotton a{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 28px;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    border-radius: 6px;
+    grid-template-columns: 7fr;
+    display: grid;  
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 80%;
+    }
+
+input[type="text"]{
+    width: 60%;
+    margin-right: 0;
+}
+
+.confirmBotton a {
+    width: 63%;
+}
+
+}
+
+
